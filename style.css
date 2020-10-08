@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+ 
+.navbar {
+	background-color:  #2a9df4;
+	color: aliceblue;
+	display: flex;
+	font-weight: 600;
+		
+}
+.navbar a {
+	color: aliceblue;
+	font-size: larger;
+	font-weight: 700;
+}
+
+.navbar h2 {
+	color: aliceblue;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 600;
+	padding-left: 10px;
+}
+
+.footer {
+	background-color: #d0efff;
+}
+
+.textlink {
+	text-decoration: none;
+}	
+	
+
+.logo-sm{
+	width:40px;
+	height: 40px;
+	margin: 0.1em;
+	margin-right: 10px;
+  }
+  .logo-lg{
+	width:100px;
+	height: 100px;
+	margin: 1em;
+   
+	}
+	.navbar {
+		
+	}
+
+	nav {
+		flex: 1;
+		text-align: right;
+	}
+	
+	nav ul {
+		display: inline-block;
+		list-style: none;
+	}
+	
+	nav ul li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+	
+	a{
+		text-decoration: none;
+		color: grey;
+	}
+
+  .orangebrdr{
+	border-color: #f4511e;
+	}
+	
+	.pdt{
+		padding-top: 3rem;
+	}
+	.pdb{
+		padding-bottom: 3rem;
+	}
+
+ul{
+	list-style-type: none;
+}
+
+.bluetxt{
+	color: #1167b1;
+}
+
+
+.bluebg{
+	background-color: #1167b1;
+}
+
+.jumbotron{
+	background-color: #1167b1; /* blue */
+	color: #ffffff;
+ text-align: center;
+}
+
+.mini-jumbotron{
+		background-color: #187bcd; /* blue */
+		color: #ffffff;
+	 text-align: center;
+	
+}
+
+.card:hover {
+	box-shadow: 5px 0px 40px #2a9df4;
+}
+
+.card{
+	margin: 0.1em;
+	
+}
+
+.card-tee{
+	margin: 0.1rem;
+	
+}
+
+.logo-sm{
+	width:40px;
+	height: 40px;
+	margin: 0.1em;
+	margin-right: 10px;
+}
+.logo-lg{
+	width:100px;
+	height: 100px;
+	margin: 1em;
+ 
+}
